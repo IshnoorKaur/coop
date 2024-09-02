@@ -11,7 +11,7 @@
 /* root values */
 :root{
     --container-color: #1a1e21;
-    --second-color: rgb(255, 77, 122);
+    --second-color: rgb(93, 185, 231);
     --text-color: #172317;
     --bg-color: #000000;
 }
@@ -26,7 +26,7 @@ a{
 }
 
 li{
-    list-style: none;
+    list-style-type: square;
 }
 
 img{
@@ -45,13 +45,12 @@ section{
 
 /* Header */
 header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 200;
 }
-
 
 header.shadow{
     background: var(--bg-color);
@@ -101,3 +100,80 @@ header.shadow .logo{
 .home-title{
     font-size: 4.5rem;
 }
+
+.about{
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .contentBx{
+    max-width: 50%;
+    width: 50%;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.titleText{
+    font-weight: 600;
+    color: #111;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.title-text{
+    color: #111;
+    font-size: 1em;
+}
+
+.about .imgBx{
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 100px;
+}
+
+.about .imgBx{
+    position: relative;
+    min-width: 50%;
+    width: 50%;
+    min-height: 100px;
+}
+
+.about3{
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*.about2{
+    position: relative;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .contentBx2{
+    max-width: 50%;
+    width: 50%;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.titleText2{
+    font-weight: 600;
+    color: #111;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.title-text2{
+    color: #111;
+    font-size: 1em;
+}*/
